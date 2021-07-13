@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.foto_perfil {
+    display: inline;
+    border-radius: 50%;
+    position: relative;
+    height: 32px;
+    width: 32px;
+}
+
+.icon_apps {
+    padding-right: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 15px 0px 0px;
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    margin-top: 5px;
+}
+
+.li_header {
+    margin-top: 5px;
+}
+
+.li_header:hover {
+    text-decoration: underline;
+}
+
+.main {
+    display: block;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.google_img {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#search {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 40px;
+    border-radius: 24px;
+    border: 1px solid #9c9c9c;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    font-size: 14px;
+    color:#3c4043;
+    line-height: 27px;
+}
+
+button:hover {
+    background-color:#f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+p {
+    font-size: 14px;
+}
+span {
+    color: #1a0dab;
+}
+
+footer {
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: grid;    
+}
+
+footer p {
+    color: #70757a;
+}
+
+footer li a {
+    display: inline-block;
+    color: #70757a;
+    text-decoration: none;
+}
+
+.nav_footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.arg_footer {
+    margin-left: 30px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dadce0;
+}
+
+.first_ul {
+    display: flex;
+    justify-content: start;
+    margin-left: 30px;
+    padding: 20px 0 20px 0;
+}
+
+.second_ul {
+    padding: 20px 0 20px 0;
+}
+
+ul li {
+    margin-right: 20px;
+}
